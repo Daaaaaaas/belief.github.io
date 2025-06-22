@@ -2083,3 +2083,18 @@ section,
     background-color: white;
   }
 }
+.logo-img {
+    max-height: 138px; /* Increased from 70px. Adjust this value to your desired maximum height. */
+    min-height: 66px;  /* Increased from 40px. Ensure it's still a good size on smaller screens. */
+    height: auto;      /* Maintains aspect ratio */
+    width: auto;       /* Maintains aspect ratio */
+    transition: all 0.3s ease-in-out; /* For smooth transitions if you add hover effects */
+}
+
+/* Optional: Adjust for smaller screens if necessary, but keep it larger than before */
+@media (max-width: 768px) {
+    .logo-img {
+        max-height: 75px; /* Adjust this for mobile. Was 50px */
+        min-height: 50px; /* Was 30px */
+    }
+}

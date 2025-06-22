@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Belief automation</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Favicons -->
+  <link href="assets\logo.jpeg" rel="icon">
+  <link href="assets\logo.jpeg" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=precision_manufacturing" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- whatsapp link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+<!-- google stich -->
+ <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <!-- slide -->
+  <!-- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>-->
+  <!-- google font arm -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=precision_manufacturing,solar_power"/>
+  <style type="text/tailwindcss">
+      :root {
+        --primary-color: #10bc69;
+        --secondary-color: #111827;--accent-color: #10bc69;--border-color: #e5e7eb;}
+      .product-card:hover .product-image {
+        transform: scale(1.05);
+      }
+      .product-card .product-image {
+        transition: transform 0.3s ease-in-out;
+      }
+      .filter-button {
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+      }
+      .filter-button:hover, .filter-button.active {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .nav-link:hover {
+        color: var(--primary-color);
+      }
+    </style>
+</head>
+<body class="index-page">
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <img src="assets\img\11logo.PNG" alt="BELIEF" class="img-fluid logo-img">
+      </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="nav-item dropdown">
+          <a href="industries.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" aria-expanded="false" target="_blank">Industries</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="automative.html">Automotive</a></li>
+            <li><a class="dropdown-item" href="food.html">Food and Beverages</a></li>
+            <li><a class="dropdown-item" href="oil.html">Oil and Gas</a></li>
+            <li><a class="dropdown-item" href="pharma.html">Pharmaceutical</a></li>
+            <li><a class="dropdown-item" href="energy.html">Renewable Energy</a></li>
+            <li><a class="dropdown-item" href="water.html">Water and Waste Water</a></li>
+          </ul>
+        </li>
+        <li><a href="service.html" target="_blank">Services</a></li>
+        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+    <a  class="btn-getstarted" style="background-color: var(--primary-color);" rel="noopener" target="_blank" href="tel:7016275516">Free Consult</a>
+
+  </div>
+</header>
+    <main class="min-h-screen w-screen bg-gray-50 font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="mb-8 text-sm text-gray-500">
+            <ol class="flex items-center space-x-2">
+                <li><a href="#" class="hover:text-blue-600">Electronics</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li><a href="#" class="hover:text-blue-600">Smartphones</a></li>
+                <li><span class="mx-2">/</span></li>
+                <li class="font-medium text-gray-800" aria-current="page">Premium Phone</li>
+            </ol>
+        </nav>
+
+        <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+            <div class="flex flex-col gap-4">
+                <figure class="aspect-w-16 aspect-h-9 w-full overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?q=80&w=2787&auto=format&fit=crop" alt="Main product image of a premium phone" class="h-full w-full object-cover">
+                </figure>
+                <div class="grid grid-cols-4 gap-4">
+                    <div class="aspect-w-1 aspect-h-1 cursor-pointer overflow-hidden rounded-md border-2 border-blue-500">
+                        <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?q=80&w=2787&auto=format&fit=crop" alt="Thumbnail 1" class="h-full w-full object-cover">
+                    </div>
+                    <div class="aspect-w-1 aspect-h-1 cursor-pointer overflow-hidden rounded-md">
+                        <img src="https://images.unsplash.com/photo-1606222379234-973347454378?q=80&w=2787&auto=format&fit=crop" alt="Thumbnail 2" class="h-full w-full object-cover opacity-70 transition hover:opacity-100">
+                    </div>
+                    <div class="aspect-w-1 aspect-h-1 cursor-pointer overflow-hidden rounded-md">
+                        <img src="https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?q=80&w=2940&auto=format&fit=crop" alt="Thumbnail 3" class="h-full w-full object-cover opacity-70 transition hover:opacity-100">
+                    </div>
+                    <div class="aspect-w-1 aspect-h-1 cursor-pointer overflow-hidden rounded-md">
+                        <img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?q=80&w=2808&auto=format&fit=crop" alt="Thumbnail 4" class="h-full w-full object-cover opacity-70 transition hover:opacity-100">
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h1 class="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl">Premium Phone - Midnight Black</h1>
+
+                <div class="flex items-center gap-2">
+                    <div class="flex text-yellow-400">
+                        </div>
+                    <a href="#" class="text-sm text-gray-500 hover:underline">(1,250 reviews)</a>
+                </div>
+
+                <p class="text-lg text-gray-700">Experience the pinnacle of mobile technology with the <strong>Premium Phone</strong>. Featuring a stunning OLED display, a powerful A16 Bionic chip, and a revolutionary camera system, this phone redefines what's possible.</p>
+
+                <div>
+                    <p class="text-4xl font-extrabold text-gray-900">$999.00</p>
+                    <p class="mt-2 text-sm font-semibold text-green-600">In Stock and ready to ship</p>
+                </div>
+
+                <div class="flex flex-col gap-4 sm:flex-row">
+                    <button class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white shadow-sm transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-16 space-y-12">
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900">Product Overview</h2>
+                <div class="prose prose-lg mt-4 max-w-none text-gray-700">
+                    <p>Its sleek design and durable construction ensure it's as beautiful as it is resilient. Enjoy seamless multitasking, stunning photography, and an immersive viewing experience.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900">Specifications</h2>
+                <div class="mt-6 grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Display</dt>
+                        <dd class="mt-2 text-sm text-gray-500">6.7-inch Super Retina XDR display</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Processor</dt>
+                        <dd class="mt-2 text-sm text-gray-500">A16 Bionic chip with next-generation Neural Engine</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Camera</dt>
+                        <dd class="mt-2 text-sm text-gray-500">48MP Main camera for incredible detail</dd>
+                    </div>
+                    <div class="border-t border-gray-200 pt-4">
+                        <dt class="font-medium text-gray-900">Storage</dt>
+                        <dd class="mt-2 text-sm text-gray-500">256GB, 512GB, or 1TB options</dd>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</main> 
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Belief Automation</span>
+          </a>
+          <div class="footer-contact pt-3">
+          <p><span>Address:</span> Samarat Industrial Area:-3,Opp.Sun Bag,B/H S.T Workshop,Gondal Road,Rajkot-4,Gujarat,India</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91 7016275516 / 8320756422</span></p>
+            <p><strong>Email:</strong> <span>belieftechno18@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="about.html">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="service.html">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="terms.html" target="_blank">Terms of service</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="service.html">Green Energy Solutions</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="service.html">Customizable Machine solution</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="robot.html">Robotic arm</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Follow us on social media for updates, offers, and the latest business insights. </p>
+          <div class="social-links d-flex">
+            <a href="https://www.facebook.com/people/Belief-Enterprise/100065658662623/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/beliefenterprise/"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="" target="_blank">belief automation</a>
+    </div>
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Preloader -->
+  <div id="preloader"></div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

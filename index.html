@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -15,7 +14,6 @@
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
   <!-- whatsapp link  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Vendor CSS Files -->
@@ -29,38 +27,43 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- slide -->
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-   
+  <!-- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>-->
   <!-- google font arm -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=precision_manufacturing,solar_power" />
-  
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=precision_manufacturing,solar_power"/>
 </head>
-
 <body class="index-page">
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-         <!-- <img src="assets/img/only-belief.png" alt="BELIEF">  -->
-        <h1 class="sitename">BELIEF</h1>
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <img src="assets\img\11logo.PNG" alt="BELIEF" class="img-fluid logo-img">
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="robot.html">Robotic arm</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-      <a class="btn-getstarted" rel="noopener" target="_blank" href="tel:7016275516">Free Consult</a>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li class="nav-item dropdown">
+          <a href="industries.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" aria-expanded="false" target="_blank">Industries</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="automative.html">Automotive</a></li>
+            <li><a class="dropdown-item" href="food.html">Food and Beverages</a></li>
+            <li><a class="dropdown-item" href="oil.html">Oil and Gas</a></li>
+            <li><a class="dropdown-item" href="pharma.html">Pharmaceutical</a></li>
+            <li><a class="dropdown-item" href="energy.html">Renewable Energy</a></li>
+            <li><a class="dropdown-item" href="water.html">Water and Waste Water</a></li>
+          </ul>
+        </li>
+        <li><a href="service.html" target="_blank">Services</a></li>
+        <li><a href="gallery.html" target="_blank">Gallery</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+    <a  class="btn-getstarted" rel="noopener" target="_blank" href="tel:7016275516">Free Consult</a>
 
-    </div>
-  </header>
+  </div>
+</header>
 
   <main class="main">
     <div style="margin-bottom: 5%;" id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
@@ -68,25 +71,27 @@
         <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
-  
       <div class="carousel-inner">
         <div class="carousel-item active c-item">
-          <img src="assets\css\111.avif" class="d-block w-100 c-img" alt="Slide 1">
+               <video class="img-fluid c-img w-100" autoplay loop muted>
+                   <source src="assets\video\6450803-hd_1920_1080_25fps.mp4" type="video/mp4" />
+               </video>
           <div class="carousel-caption top-0 mt-4">
             <p class="mt-5 fs-3 text-uppercase">Discover the latest technology</p>
-            <p class="display-1 fw-bolder text-capitalize">Robotic arm</p>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Know More</button>
+            <p class="display-1 fw-bolder text-capitalize">Robotic solution</p>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" > <a class="text-white" href="robot.html">Know More</a> </button>
           </div>
         </div>
         <div class="carousel-item c-item">
-          <img src="assets\css\kk.jpeg"class="d-block w-100 c-img" alt="Slide 2">
+          <img src="assets\solar.jpg"class="d-block w-100 c-img" alt="Slide 2">
           <div class="carousel-caption top-0 mt-4">
-            <p class="text-uppercase fs-3 mt-5">Green Energy Solutions</p>
+            <p class="text-uppercase fs-3 mt-5">Green Energy Solutions</p>  
             <p class="display-1 fw-bolder text-capitalize">panel</p>
             <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#booking-modal">Know More</button>
+              data-bs-target="#booking-modal" ><a class="text-white" href="service.html">Know More</a></button>
           </div>
         </div>
         <div class="carousel-item c-item">
@@ -95,7 +100,7 @@
             <p class="text-uppercase fs-3 mt-5">Get latest Industrial Components</p>
             <p class="display-1 fw-bolder text-capitalize">PLCs and HMIs</p>
             <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#booking-modal">Know More</button>
+              data-bs-target="#booking-modal"><a class="text-white" href="service.html">Know More</a></button>
           </div>
         </div>
         <div class="carousel-item c-item">
@@ -104,7 +109,16 @@
             <p class="text-uppercase fs-3 mt-5">Custom-crafted to match your exact needs.</p>
             <p class="display-1 fw-bolder text-capitalize">Precision turning SPM </p>
             <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
-              data-bs-target="#booking-modal">Know More</button>
+              data-bs-target="#booking-modal"><a class="text-white" href="service.html">Know More</a></button>
+          </div>
+        </div>
+          <div class="carousel-item c-item">
+          <img src="assets\img\iot-1.jpg" class="d-block w-100 c-img" alt="Slide 5">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">See the unseen, fix the unfixed The power of .....</p>
+            <p class="display-1 fw-bolder text-capitalize">Industry IoT</p>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal"
+              data-bs-target="#booking-modal"><a class="text-white" href="service.html">Know More</a></button>
           </div>
         </div>
       </div>
@@ -131,10 +145,11 @@
               <div class="icon"><span class="text-success material-symbols-outlined" style="font-size: 48px;">
                 precision_manufacturing
                 </span></div>
-              <h4><a href="" class="stretched-link">Robotic arm</a></h4>
+              <h4><a href="robot.html" class="stretched-link">Robotic arm</a></h4>
               <p>Boost efficiency with our advanced robot arm—precision, power, and seamless automation !</p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
 
           <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
@@ -144,7 +159,8 @@
               <h4><a href="" class="stretched-link">Green Energy Solutions</a></h4>
               <p>Power the future with sustainable, cost-effective green energy solutions—clean, smart, limitless.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          <!-- End Service Item -->
 
           <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
@@ -163,7 +179,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-            <h1>we provide latest robotic arm !</h1>
+            <h1>we provide latest robotic solution .. </h1>
             <p>that can be programmed to perform tasks with speed, accuracy, and reliability. They are often used in manufacturing, assembly, and other industries. </p>
             <div class="d-flex">
               <a  class="btn-get-started"  rel="noopener" target="_blank" href="tel:7016275516" >Call for more Details</a>
@@ -280,10 +296,8 @@
               Let’s automate smarter, greener, and faster.</p>
             <a href="service.html" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
-
           <div class="col-xl-7">
             <div class="row gy-4 icon-boxes">
-
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                   <i class="bi bi-buildings"></i>
@@ -291,7 +305,6 @@
                   <p> Automate your industrial processes for improved efficiency and reduced downtime.</p>
                 </div>
               </div> <!-- End Icon Box -->
-
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                   <i class="bi bi-clipboard-pulse"></i>
@@ -418,7 +431,6 @@
                 <a href="contact.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img style=" height:400px ;width:400px;" src="assets\img\automatic.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -427,7 +439,6 @@
                 <a href="https://youtu.be/nA6UABCPFvU?si=A5lFFKAcz6s65Ijn" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img style=" height:300px ;width:400px;"  src="assets\automation-plc-panel.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -436,7 +447,6 @@
                 <a href="contact.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img style=" height:400px ;width:400px;" src="assets\img\roboticarm1234.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -445,7 +455,6 @@
                 <a href="https://youtube.com/shorts/WcVcge5HxFc?si=Hb9vSK93VAUl9-uZ" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img  style=" height:400px ;width:400px;" src="automation product\SIEMENS S7-200 SMART PLC.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -454,121 +463,13 @@
                 <a href="contact.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div><!-- End Portfolio Item -->
-
           </div><!-- End Portfolio Container -->
-
         </div>
-
       </div>
-
     </section>
     <!-- /Portfolio Section -->
-     
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span>Testimonials</span>
-        <h2>Testimonials</h2>
-        <p>Real Stories, Real Results and Hear What Our Satisfied Customers Have to Say.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-            <p>
-                <span>" We wanted to reduce our carbon footprint, and Belief automation made it easy. We're proud to be generating clean power. "</span>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Hemant J.</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <span>" We needed our machine customized on a tight deadline, and <b>Belief automation</b> delivered on time and within budget. Their reliability is unmatched. "</span>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Janki </h3>
-                <h4>customer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <span>" From the initial consultation to the final installation, <b>Service Team</b>  provided exceptional customer service. They were communicative and professional throughout the entire process. " </span>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Sakshi B.</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <span>The team at Belief truly cares about their customers. They took the time to understand our specific needs and provided personalized solutions. We felt like valued partners..</span>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Veer J.</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <span>"Best customization work, I have ever seen.They made my old machine, work like <b>new.</b> Thank you!"</span>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Ramesh Bhai</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
-
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
@@ -580,46 +481,8 @@
           </div>
         </div>
       </div>
-
     </section><!-- /Call To Action Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span>Team</span>
-        <h2>Team</h2>
-        <p>Meet the Experts , Passionate Professionals Dedicated to Your Success.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="pic"><img src="assets\img\ownerphoto.jpg"style="width: 500px;" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Vijay Bhai</h4>
-                <span>Ceo &amp; Cofoundeer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-youtube"></i></a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
-
   </main>
-
   <footer id="footer" class="footer">
     <div class="container footer-top">
       <div class="row gy-4">
@@ -628,7 +491,7 @@
             <span class="sitename">Belief Automation</span>
           </a>
           <div class="footer-contact pt-3">
-          <p><span>Address:</span> S.T Work Shop, B/H, Gondal Rd, opp. Sun Bag, near uma inernational, Panchsheel Wadi, Samrat Industrial Area, Rajkot, Gujarat 360004</p>
+          <p><span>Address:</span> Samarat Industrial Area:-3,Opp.Sun Bag,B/H S.T Workshop,Gondal Road,Rajkot-4,Gujarat,India</p>
             <p class="mt-3"><strong>Phone:</strong> <span>+91 7016275516 / 8320756422</span></p>
             <p><strong>Email:</strong> <span>belieftechno18@gmail.com</span></p>
           </div>
@@ -643,7 +506,6 @@
             <li><i class="bi bi-chevron-right"></i> <a href="terms.html" target="_blank">Terms of service</a></li>
           </ul>
         </div>
-
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
@@ -652,7 +514,6 @@
             <li><i class="bi bi-chevron-right"></i> <a href="robot.html">Robotic arm</a></li>
           </ul>
         </div>
-
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
           <p>Follow us on social media for updates, offers, and the latest business insights. </p>
@@ -661,21 +522,16 @@
             <a href="https://www.instagram.com/beliefenterprise/"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
-
       </div>
     </div>
-
     <div class="container copyright text-center mt-4">
       Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="" target="_blank">belief automation</a>
     </div>
   </footer>
-
   <!-- Scroll Top -->
   <a  href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
   <!-- Preloader -->
   <div id="preloader"></div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -685,10 +541,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <!-- Favicons -->
+  <link href="assets\logo.jpeg" rel="icon">
+  <link href="assets\logo.jpeg" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- whatsapp link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#111418',
+              soft: '#f0f2f5',
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', '"Noto Sans"', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .fullscreen-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        flex-direction: column;
+      }
+      .fullscreen-overlay img,
+      .fullscreen-overlay video {
+        max-width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body class="font-sans bg-white text-success">
+<header id="header" class="header d-flex align-items-center sticky-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <img src="assets\img\11logo.PNG" alt="BELIEF" class="img-fluid logo-img">
+      </a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a href="industries.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" aria-expanded="false" target="_blank">Industries</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="automative.html">Automotive</a></li>
+            <li><a class="dropdown-item" href="food.html">Food and Beverages</a></li>
+            <li><a class="dropdown-item" href="oil.html">Oil and Gas</a></li>
+            <li><a class="dropdown-item" href="pharma.html">Pharmaceutical</a></li>
+            <li><a class="dropdown-item" href="energy.html">Renewable Energy</a></li>
+            <li><a class="dropdown-item" href="water.html">Water and Waste Water</a></li>
+          </ul>
+        </li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="gallery.html" class="active" >Gallery</a></li>
+        <li><a href="about.html"  >About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+    <a  class="btn-getstarted" rel="noopener" target="_blank" href="tel:7016275516">Free Consult</a>
+
+  </div>
+</header>
+
+    <!-- whatsapp include -->
+    <a  href="https:/wa.me/917016275516"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+    <!--  -->
+    <section class="text-center px-6 py-20 bg-gradient-to-b from-white to-gray-100">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Gallery</h2>
+      <p class="text-[#60758a] text-base md:text-lg max-w-2xl mx-auto">
+        Capturing Stories Visually
+      </p>
+    </section>
+
+ <main class="px-6 md:px-40 py-10">
+      <div class="max-w-6xl mx-auto">
+        <div class="mb-6">
+          <h3 class="text-3xl font-bold">Portfolio</h3>
+          <p class="text-[#60758a] mt-2 text-sm">Explore Our best work, Through various Videos and Photos.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-3 mb-6">
+          <button data-filter="all" class="filter-btn bg-soft px-4 py-2 rounded-lg hover:scale-105 transition">All</button>
+          <button data-filter="image" class="filter-btn bg-soft px-4 py-2 rounded-lg hover:scale-105 transition">Photos</button>
+          <button data-filter="video" class="filter-btn bg-soft px-4 py-2 rounded-lg hover:scale-105 transition">Videos</button>
+        </div>
+
+        <!-- Grid Items with pagination data -->
+        <div id="portfolioGrid" class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4">
+          <!-- Page 1 Items -->
+          <div data-item type="image" data-page="1" class="item rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG_20201021_180005.jpg','image','Photo #1')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG_20201021_180005.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #1</div>
+          </div>
+          <div data-item type="image" data-page="1" class="item rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG-20200712-WA0009.jpg','image','Photo #2')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG-20200712-WA0009.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #2</div>
+          </div>
+          <div data-item type="video" data-page="1" class="item rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/video/VID-20200922-WA0001.mp4','video','Video #1')">
+            <video controls muted class="w-full aspect-square object-cover">
+              <source src="assets/video/video/VID-20200922-WA0001.mp4" type="video/mp4">
+            </video>
+            <div class="p-2 text-sm font-medium text-center">Video #1</div>
+          </div>
+
+          <!-- Page 2 Items -->
+          <div data-item type="image" data-page="2" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/20210906_153025.jpg','image','Photo #3')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/20210906_153025.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #3</div>
+          </div>
+          <div data-item type="video" data-page="2" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/video/VID-20210319-WA0010.mp4','video','Video #2')">
+            <video controls muted class="w-full aspect-square object-cover">
+              <source src="assets/video/video/VID-20210319-WA0010.mp4" type="video/mp4">
+            </video>
+            <div class="p-2 text-sm font-medium text-center">Video #2</div>
+          </div>
+            <div data-item type="video" data-page="2" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/video/VID-20210402-WA0003.mp4','video','Video #3')">
+            <video controls muted class="w-full aspect-square object-cover">
+              <source src="assets/video/video/VID-20210402-WA0003.mp4" type="video/mp4">
+            </video>
+            <div class="p-2 text-sm font-medium text-center">Video #3</div>
+          </div>
+
+          <!--  Page 3 Items -->
+         <div data-item type="image" data-page="3" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG_20210322_143513.jpg','image','Photo #4')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG_20210322_143513.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #4</div>
+          </div>
+          <div data-item type="image" data-page="3" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG-20200712-WA0010.jpg','image','Photo #3')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG-20200712-WA0010.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #5</div>
+          </div>
+          <div data-item type="image" data-page="3" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG-20200720-WA0007.jpg','image','Photo #3')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG-20200720-WA0007.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #6</div>
+          </div>
+                <div data-item type="image" data-page="3" class="item hidden rounded-xl shadow-lg transition-transform hover:scale-105 hover:shadow-2xl overflow-hidden cursor-pointer" onclick="openFullscreen('assets/video/image/IMG_20201018_201057.jpg','image','Photo #3')">
+            <div class="aspect-square bg-cover bg-center" style="background-image:url('assets/video/image/IMG_20201018_201057.jpg')"></div>
+            <div class="p-2 text-sm font-medium text-center">Photo #7</div>
+          </div>
+
+
+        </div>
+
+        <!-- Pagination Controls -->
+        <div id="pagination" class="flex justify-center items-center gap-2 mt-10">
+          <button data-page="1" class="page-btn size-10 flex items-center justify-center bg-soft rounded-full font-semibold">1</button>
+          <button data-page="2" class="page-btn size-10 flex items-center justify-center text-success rounded-full">2</button>
+          <button data-page="3" class="page-btn size-10 flex items-center justify-center text-success rounded-full">3</button>
+        </div>
+      </div>
+    </main>
+    <div id="fullscreenViewer" class="fullscreen-overlay hidden">
+      <button onclick="closeFullscreen()" class="absolute top-4 right-6 text-white text-3xl font-bold">&times;</button>
+    </div>
+
+    <script>
+      // Pagination logic
+      const pageButtons = document.querySelectorAll('.page-btn');
+      pageButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const page = btn.getAttribute('data-page');
+          document.querySelectorAll('[data-item]').forEach(item => {
+            item.classList.toggle('hidden', item.getAttribute('data-page') !== page);
+          });
+          pageButtons.forEach(b => b.classList.toggle('bg-soft', b !== btn));
+          btn.classList.toggle('bg-soft');
+        });
+      });
+
+      // Filter logic
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          document.querySelectorAll('[data-item]').forEach(item => {
+            const type = item.getAttribute('type');
+            item.style.display = (filter === 'all' || filter === type) ? '' : 'none';
+          });
+        });
+      });
+
+      // Fullscreen functions
+      function openFullscreen(src, type, label) {
+        const viewer = document.getElementById('fullscreenViewer');
+        if (type === 'image') {
+          viewer.innerHTML = `
+            <button onclick="closeFullscreen()" class="absolute top-4 right-6 text-white text-3xl font-bold">&times;</button>
+            <img src="${src}" alt="Fullscreen Image">
+            <p class="mt-4 text-white text-lg font-medium">${label}</p>`;
+        } else {
+          viewer.innerHTML = `
+            <button onclick="closeFullscreen()" class="absolute top-4 right-6 text-white text-3xl font-bold">&times;</button>
+            <video controls autoplay src="${src}"></video>
+            <p class="mt-4 text-white text-lg font-medium">${label}</p>`;
+        }
+        viewer.classList.remove('hidden');
+      }
+      function closeFullscreen() {
+        const viewer = document.getElementById('fullscreenViewer');
+        viewer.classList.add('hidden');
+        viewer.innerHTML = '';
+      }
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeFullscreen(); });
+    </script>
+  </body>
+</html>
